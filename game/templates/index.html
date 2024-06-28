@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="vh-100 d-flex flex-column justify-content-around bg-secondary p-5 m-5 gap-5">
+
+    <div class="bg-body-secondary">
+      <h1>Hello world!</h1>
+    </div>
+  
+    <div class="bg-body-tertiary flex-fill">
+      <h1>Text-Based Adventure Game</h1>
+    </div>
+  
+    <div>
+      <a class="btn btn-primary" role="button" href="{% url 'game' %}">Play game!</a>
+    </div>
+
+</div>
+{% endblock %}

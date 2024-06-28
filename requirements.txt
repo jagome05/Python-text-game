@@ -1,0 +1,14 @@
+# --> can add package req and run: pip install -r requirements.txt
+# ?ref https://www.youtube.com/watch?v=_s6g6yP0ahY
+
+asgiref==3.8.1
+Django==5.0.6
+django-appconf==1.0.6
+django-debug-toolbar==4.4.2
+django-extensions==3.2.3
+django_compressor==4.5
+djangorestframework==3.15.2
+rcssmin==1.1.2
+rjsmin==1.2.2
+sqlparse==0.5.0
+tzdata==2024.1
